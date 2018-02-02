@@ -1,0 +1,114 @@
+$principal:#2D0047;
+$secundario:#9C005B;
+$gris:#4D4D4D;
+$blanco:#fff;
+$transparente:none;
+
+html {
+font-family: 'Montserrat', sans-serif !important;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.img-logo{
+	width: 4.5em;
+  height: 4.5em;
+  margin-top: -3em;
+}
+
+.centrar{
+  margin: 0 auto;
+}
+
+.boton{
+  width: 100%;
+}
+
+.boton:hover{
+  background:$secundario;
+
+}
+
+.separador1{
+      border-top: 3px solid;
+}
+
+.separador2{
+      border-top: 1px solid;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+.f2{
+  font-size: 1em;
+}
+
+.blanco{
+
+  color:$blanco;
+}
+
+.bg-gris{
+	background-color:$gris;
+}
+
+a:hover {
+    color: $secundario;
+    text-decoration: none;
+}
+
+a.nav-link {
+    color:$blanco !important;
+}
+
+a.nav-link:hover {
+    color:$secundario !important;
+
+}
+
+h3.mt-3.text-primary:hover{
+  color:$secundario !important;
+
+}
+
+i:hover{
+color:$secundario;
+}
+
+
+.btn-primary:hover {
+    color: $blanco;
+    background-color: $secundario;
+    border-color: $secundario;
+}
+
+/* ocultar contenido por pantalla */
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=personales.css.map */
+
